@@ -1,21 +1,24 @@
-bady{
-    background-color: black;
+body{
+   
     width: 33%;
    
 }
+.camada1, .camada2{
+    display: flex;
+}
+
 #res{
     background-color: lightgray;
     border: solid;
     height: 48px;
     font-size: 20px;
 }
-#btn0{
+#btn0, #btn1{
     background-color: lightgreen;
     color: brown;
     width: 25%;
     font-size: 18px;
     margin: 0px;
-}
 }
 #btnCrl, #btnEql{
     background-color: darkgreen;
@@ -32,5 +35,7 @@ bady{
     font-size: 18px;
     margin: 0px;
 }
-
+#display{
+    width: 320px ;
+    height: 50px;
 }

@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/calculadora binaria.css">
+        
         <title>Binaria</title>
     </head>
     <body>
+        <input type="text" id="display">
+        <div class="camada1">
+            <button id="btn0" onclick="Display('0')">0</button>
+            <button id="btn1" onclick="Display('1')">1</button>
+            <button id="btnCrl" onclick="Clear()">C</button>
+            <button id="btnEql" onclick="Calcular()">=</button>
+        </div> 
+        <div class="camada2">
+            <button id="btnSum" onclick="Calcular('+')">+</button>
+            <button id="btnSub" onclick="Calcular('-')">-</button>
+            <button id="btnMul" onclick="Calcular('*')">*</button>
+            <button id="btnDiv" onclick="Calcular('/')">/</button>
+        </div>
         
+        <script src="script.js"></script>
     </body>
 </html>
